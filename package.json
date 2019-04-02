@@ -1,0 +1,25 @@
+{
+  "name": "project-demo",
+  "version": "1.0.0",
+  "description": "使用webpack构建项目",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wujimin515600/demo.git"
+  },
+  "author": "wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wujimin515600/demo/issues"
+  },
+  "homepage": "https://github.com/wujimin515600/demo#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
